@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* banner style */
+.banner-container {
+    background-image: url("../resources/Banner\ Image.png");
+    height: 600px;
+    width: 1320px;
+    margin: 16px auto;
+    border-radius: 16px;
+}
+
+.banner-container h3 {
+    padding-top: 178px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 16px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #000000 0%, rgba(1, 0, 2, 0) 100%);
+}
+
+.banner-text {
+    margin: auto;
+
+
+}
+
+.banner-container h1 {
+    width: 630px;
+    color: white;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    text-align: center;
+    font-family: Merriweather;
+    padding: 16px 0 177px;
+}
+
+/* banner style end*/
+
+
+/* categorries-sec */
+.categories-sec {
+    background: #FFF;
+    width: 100vw;
+    height: 735px;
+    margin-top: 120px;
+
+}
+
+.categories-sec .off {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.scnd-color{
+    color: rgb(29, 193, 11);
+}
+
+.categories-content h4{
+    padding-top: 48px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sec-title{
+padding-top: 16px;
+padding-bottom: 48px ;
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.categories-content img{
+    width: 802.9px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+
+/* welcome-party-style */
+
+.welcome-party-sec{
+    margin: auto;
+    width: 1320px;
+    height: 600px;
+    margin-top: 150px;
+    background-image: url("../resources/Vectorrr.png");
+    display: flex;    
+}
+
