@@ -9,7 +9,7 @@
 
 /* banner style */
 .banner-container {
-    background-image: url("../resources/Banner\ Image.png");
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
     height: 600px;
     width: 1320px;
     margin: 16px auto;
@@ -112,8 +112,9 @@
     width: 1320px;
     height: 600px;
     margin-top: 150px;
-    background-image: url("../resources/Vectorrr.png");
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
     display: flex;
+    
 }
 
 
@@ -156,7 +157,11 @@
     border-radius: 30px;
     padding: 15px 30px;
     text-align: center;
+    transition: all 0.3s ease;
+}
 
+.welcome-party-sec button:hover{
+    background-color: rgb(229, 126, 8);
 }
 
 .new-year-img {
