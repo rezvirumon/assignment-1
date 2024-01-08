@@ -26,7 +26,6 @@
     font-weight: 400;
     line-height: normal;
     border-radius: 16px;
-    border-radius: 16px;
     background: linear-gradient(180deg, #000000 0%, rgba(1, 0, 2, 0) 100%);
 }
 
@@ -71,7 +70,7 @@
 }
 
 .scnd-color {
-    color: rgb(230, 230, 14);
+    color: rgb(28, 28, 2);
 }
 
 .categories-content h4 {
@@ -111,10 +110,12 @@
     margin: auto;
     width: 1320px;
     height: 600px;
-    margin-top: 150px;
+    margin-top: 190px;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
     display: flex;
-    
+    border-radius: 16px;
+
+
 }
 
 
@@ -160,11 +161,61 @@
     transition: all 0.3s ease;
 }
 
-.welcome-party-sec button:hover{
+.welcome-party-sec button:hover {
     background-color: rgb(229, 126, 8);
 }
 
 .new-year-img {
     margin: 69px 138px 0 67px;
     height: 152px;
+}
+
+.join-now-sec {
+    width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+    ;
+    text-align: center;
+    border-radius: 16px;
+
+}
+
+.join-now-content {
+    padding-top: 100px;
+
+}
+
+.join-now-content h2 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.schedule {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+}
+
+.join-now-content button {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
