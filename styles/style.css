@@ -163,7 +163,7 @@
 
 .welcome-party-sec button:hover {
     background-color: rgb(255, 34, 0);
-    box-shadow:  0px 0px 70px 5px rgb(255, 34, 0);
+    box-shadow: 0px 0px 70px 5px rgb(255, 34, 0);
 
 }
 
@@ -220,8 +220,8 @@
     transition: all 0.3s ease;
 }
 
-.join-now-content button:hover{
-        box-shadow:  0px 0px 70px 5px rgb(255, 34, 0);
+.join-now-content button:hover {
+    box-shadow: 0px 0px 70px 5px rgb(255, 34, 0);
 }
 
 
@@ -275,8 +275,8 @@
     transition: all 0.3s ease;
 }
 
-.offer-content-2 img:hover{
-    box-shadow:  0px 0px 70px 5px rgb(255, 34, 0);
+.offer-content-2 img:hover {
+    box-shadow: 0px 0px 70px 5px rgb(255, 34, 0);
 
 }
 
@@ -325,7 +325,8 @@
 }
 
 .holidays-sale h1 {
-    color: #070211;;
+    color: #070211;
+    ;
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
@@ -334,11 +335,11 @@
     padding-top: 16px;
 }
 
-.holidays-sale .holidays-color{
+.holidays-sale .holidays-color {
     color: #F00;
 }
 
-.holidays-sale p{
+.holidays-sale p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -355,53 +356,105 @@
 
 .discount-container {
     position: relative;
-    width: 300px; 
-    height: 200px; 
+    width: 300px;
+    height: 200px;
 
-  }
+}
 
-  .image-1 {
+.image-1 {
     position: absolute;
-    top: 50%; 
-    left: 1400px; 
-    transform: translate(-50%, -50%); 
+    top: 50%;
+    left: 1400px;
+    transform: translate(-50%, -50%);
     width: 429px;
     height: 433px;
     margin-top: 64px;
     transition: all 0.3s ease;
 
-  }
-  .image-2 {
+}
+
+.image-2 {
     position: absolute;
-    top: 60%; 
-    left: 1200px; 
-    transform: translate(-50%, -50%); 
+    top: 60%;
+    left: 1200px;
+    transform: translate(-50%, -50%);
     width: 300px;
     height: 300px;
     margin-top: 64px;
-  }
-  .image-3 {
+}
+
+.image-3 {
     position: absolute;
-    top: 470px; 
-    left: 955px; 
-    transform: translate(-50%, -50%); 
-    
-  }
+    top: 470px;
+    left: 955px;
+    transform: translate(-50%, -50%);
+
+}
 
 
-  .image-4 {
+.image-4 {
     position: absolute;
-    top: 120%; 
-    left: 200%; 
-    transform: translate(-50%, -50%); 
+    top: 120%;
+    left: 200%;
+    transform: translate(-50%, -50%);
     width: 650px;
     height: 550px;
     margin-top: 64px;
     overflow: hidden;
     border-radius: 50%;
 
-  }
+}
 
-  .image-1:hover{
-    box-shadow:  0px 0px 70px 5px rgb(255, 34, 0);
-  }
+.image-1:hover {
+    box-shadow: 0px 0px 70px 5px rgb(255, 34, 0);
+}
+
+
+/* portfolio-styles */
+.portfolio-container {
+    width: 100%;
+    margin: 500px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-container img {
+    padding: 10px;
+    width: 440px;
+    height: 420px;
+    transition: all 0.3s ease;
+}
+
+.portfolio-container img:hover {
+    box-shadow: 0px 0px 50px 5px rgb(41, 40, 40);
+    border-radius: 30px;
+}
+
+.port-title .t1 {
+    margin-left: 10px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.port-title .t2 {
+    margin: 16px 10px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.port-title .t3 {
+    margin: 22px 10px 30px;
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
