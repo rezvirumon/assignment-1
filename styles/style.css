@@ -162,7 +162,9 @@
 }
 
 .welcome-party-sec button:hover {
-    background-color: rgb(229, 126, 8);
+    background-color: rgb(255, 34, 0);
+    box-shadow:  0px 0px 70px 5px rgb(255, 34, 0);
+
 }
 
 .new-year-img {
@@ -206,8 +208,6 @@
 .join-now-content button {
     display: inline-flex;
     padding: 16px 32px;
-    justify-content: center;
-    align-items: center;
     margin-top: 48px;
     border: none;
     border-radius: 8px;
@@ -217,7 +217,11 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    transition: all 0.3s ease;
+}
+
+.join-now-content button:hover{
+        box-shadow:  0px 0px 70px 5px rgb(255, 34, 0);
 }
 
 
@@ -268,6 +272,12 @@
     border-radius: 463px;
     border: 12px solid #F00;
     padding: 45px;
+    transition: all 0.3s ease;
+}
+
+.offer-content-2 img:hover{
+    box-shadow:  0px 0px 70px 5px rgb(255, 34, 0);
+
 }
 
 .offer-content-3 h1 {
@@ -358,6 +368,8 @@
     width: 429px;
     height: 433px;
     margin-top: 64px;
+    transition: all 0.3s ease;
+
   }
   .image-2 {
     position: absolute;
@@ -382,8 +394,14 @@
     top: 120%; 
     left: 200%; 
     transform: translate(-50%, -50%); 
-    width: 550px;
+    width: 650px;
     height: 550px;
     margin-top: 64px;
-    
+    overflow: hidden;
+    border-radius: 50%;
+
+  }
+
+  .image-1:hover{
+    box-shadow:  0px 0px 70px 5px rgb(255, 34, 0);
   }
