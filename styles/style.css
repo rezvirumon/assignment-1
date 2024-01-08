@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -69,11 +70,11 @@
     line-height: normal;
 }
 
-.scnd-color{
-    color: rgb(29, 193, 11);
+.scnd-color {
+    color: rgb(230, 230, 14);
 }
 
-.categories-content h4{
+.categories-content h4 {
     padding-top: 48px;
     color: #F00;
     text-align: center;
@@ -84,19 +85,19 @@
     line-height: normal;
 }
 
-.sec-title{
-padding-top: 16px;
-padding-bottom: 48px ;
-color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.sec-title {
+    padding-top: 16px;
+    padding-bottom: 48px;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-.categories-content img{
+.categories-content img {
     width: 802.9px;
     height: 500px;
     display: block;
@@ -106,12 +107,59 @@ line-height: normal;
 
 /* welcome-party-style */
 
-.welcome-party-sec{
+.welcome-party-sec {
     margin: auto;
     width: 1320px;
     height: 600px;
     margin-top: 150px;
     background-image: url("../resources/Vectorrr.png");
-    display: flex;    
+    display: flex;
 }
 
+
+.welcome-party-sec h1 {
+    padding: 126px;
+    padding-bottom: 0px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+
+}
+
+.welcome-party-sec p {
+    padding-top: 26px;
+    padding-left: 126px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 800px;
+}
+
+
+.welcome-party-sec button {
+    margin-left: 158px;
+    margin-top: 48px;
+    background: none;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 15px 30px;
+    text-align: center;
+
+}
+
+.new-year-img {
+    margin: 69px 138px 0 67px;
+    height: 152px;
+}
