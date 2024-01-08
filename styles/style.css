@@ -290,8 +290,100 @@
     padding-left: 118px;
 }
 
-.offer-content-3 img{
+.offer-content-3 img {
     height: 140px;
     width: 140px;
     margin: 16px 118px;
 }
+
+
+/* holidays-sale */
+
+.holidays-sale {
+    width: 1068px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.holidays-sale h2 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holidays-sale h1 {
+    color: #070211;;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-top: 16px;
+}
+
+.holidays-sale .holidays-color{
+    color: #F00;
+}
+
+.holidays-sale p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    padding-top: 28px;
+    width: 882px;
+    margin: auto;
+}
+
+/* discount-bonus-section */
+
+
+.discount-container {
+    position: relative;
+    width: 300px; 
+    height: 200px; 
+
+  }
+
+  .image-1 {
+    position: absolute;
+    top: 50%; 
+    left: 1400px; 
+    transform: translate(-50%, -50%); 
+    width: 429px;
+    height: 433px;
+    margin-top: 64px;
+  }
+  .image-2 {
+    position: absolute;
+    top: 60%; 
+    left: 1200px; 
+    transform: translate(-50%, -50%); 
+    width: 300px;
+    height: 300px;
+    margin-top: 64px;
+  }
+  .image-3 {
+    position: absolute;
+    top: 470px; 
+    left: 955px; 
+    transform: translate(-50%, -50%); 
+    
+  }
+
+
+  .image-4 {
+    position: absolute;
+    top: 120%; 
+    left: 200%; 
+    transform: translate(-50%, -50%); 
+    width: 550px;
+    height: 550px;
+    margin-top: 64px;
+    
+  }
